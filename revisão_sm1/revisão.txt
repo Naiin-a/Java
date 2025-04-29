@@ -1,0 +1,34 @@
+1. Explique o conceito de classe em programação orientada a objetos e sua importância na definição de objetos em Java. 
+Lugar onde se define um dado,o objeto não consegue ser declarado sem estar em uma class, objetos é o dado a ser instanciado.
+2. Defina o que é um objeto em Java e como ele se relaciona com a definição de uma classe.
+ É o dado a ser instanciado dentro da uma class.
+3. Descreva os principais membros de uma classe em Java e a função de cada um (campos e métodos). 
+Atributo(campos):São as variaveis que armazenam dados especificos de um objeto da classe.
+Método: são as função que definem o comportamento deos objetos da classe.
+4. Explique o processo de compilação de uma classe Java para bytecode e sua importância na portabilidade da linguagem. 
+
+5. Qual é a diferença entre atributos públicos, privados e protegidos em Java? Dê exemplos de quando usar cada um. 
+Publicos:todos os objetos podem ser manipulados de qualquer forma
+Privado:os objetos não podem ser manipulados de qualquer forma
+Protected: os objetos não podem ser manipulados
+6. Explique o conceito de herança em Java e como ela é aplicada para promover a reutilização de código. 
+São definidos uma class abstrada onde pode ser declarada objetos e funções gerais onde outras classes iram utilizar mas de outro jeito mas sera utilizando uma função geral.
+7. Diferencie herança simples e herança múltipla em Java, e explique como a linguagem resolve limitações relacionadas à herança múltipla. 
+Herança simples: seria quando só uma classe herda e puxa as funções de outra classe
+Herança multipla quando há varias classes herdando as função da classe principal
+8. Explique o que são interfaces em Java, suas características principais e como elas permitem a implementação de múltiplas heranças.
+A interfaces restringe os tipos de metodos e atributos enquanto a herança possuem valores proprios
+ 9. Disserte sobre o encapsulamento em Java, detalhando como ele protege os dados e permite o acesso controlado aos atributos de uma classe. 
+Encapsulamento é o principio do java pais é uma programação orientada a objeto, que proteje os dados internos de uma classe restrindindo o seu acesso, os atributos de uma classe devem ser priavdos e acessados por um metodo publico 
+10. Defina polimorfismo em Java e exemplifique como ele pode ser aplicado na programação orientada a objetos. 
+Seria quando se puxa uma função de outra classe e cria uma nova função utilizando de uma única função
+11. Explique o papel dos métodos em uma classe Java e como eles definem o comportamento dos objetos. Os metodos passam os paramentros de um objeto dizendo qual é a função dele dentro de uma classe
+12. Analise a seguinte afirmação: “Um objeto de uma classe é apenas uma definição, pois a ação só ocorre quando o objeto é invocado através de um método”. Você concorda? Justifique sua resposta.
+Sim, um objeto só consegue ser manipulado em um metodo (errado)
+13. Explique as diferenças entre instância e identidade no contexto de programação orientada a objetos.
+Instanciamento: referece ao processo de criação de um objeto em uma classe
+Identidade:sla
+ 14. Descreva as características de um método público e um método privado e discuta como a herança afeta o acesso a esses métodos em subclasses. 
+Uma classe principal sendo publica pode se herdar todos os intes enquanto snedo privado não pode puxar quaquer objeto dentro de uma subclasse
+15. Explique a importância da abstração na programação orientada a objetos, citando exemplos de como uma classe pode representar uma abstração do mundo real.
+Com a abstração uma classe pode ser herdada sem ocorrer problemas comparado a public e private class, um motor seria uma abstração pois há diversos usos para um motor em diferentes areas e lugares.
